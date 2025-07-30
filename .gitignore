@@ -1,0 +1,103 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+
+# C extensions
+*.c
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# VSCode and IDE settings
+.vscode/
+.idea/
+
+# PyCharm
+*.iml
+
+# Virtual environments
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Kafka logs or temp files (if local setup)
+kafka-logs/
+*.log
+
+# Spark local logs and temp
+spark-warehouse/
+metastore_db/
+
+# Local databases
+*.db
+*.sqlite3
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Model files and datasets
+*.h5
+*.hdf5
+*.pkl
+*.joblib
+*.pt
+*.tflite
+*.csv
+*.tsv
+*.xlsx
+*.parquet
+*.json
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Docker
+*.pid
+*.tar
+*.gz
+*.swp
+
+# Airflow (if used)
+airflow.db
+airflow.cfg
+logs/
