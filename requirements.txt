@@ -1,4 +1,5 @@
 pandas
 numpy
 kafka-python
-dotenv
+python-dotenv
+pyspark
